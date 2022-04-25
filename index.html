@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!--Header шапка сайту-->
     <header>
       <nav>
-        <a href="#">
-          <img src="./images/WebStudio.svg" alt="#" />
-        </a>
-
+        <a class="logo" href="#"><span class="accent">Web</span>Studio</a>
         <ul>
-          <li><a href="#">Студия</a></li>
+          <li class="studio-app"><a href="#">Студия</a></li>
           <li><a href="#">Портфолио</a></li>
           <li><a href="#">Контакты</a></li>
           <li><a href="malto:info@devstudio.com">info@devstudio.com</a></li>
@@ -24,8 +28,12 @@
           </li>
         </ul>
         <!--section 1-->
-        <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button type="button">Заказать услугу</button>
+        <div id="block">
+          <a class="reklama" href="#">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</a>
+          <button type="button" class="btn-btn-primary">
+            <span class="order-service">Заказать услугу</span>
+          </button>
+        </div>
         <ul>
           <li>
             <a href="#">ВНИМАНИЕ К ДЕТАЛЯМ</a>
@@ -63,17 +71,13 @@
       </nav>
     </header>
     <!--section 3-->
-    <section>
-      <h2>
-        <img src="./images/WebStudio(footer).svg" alt="#" />
-      </h2>
-      <footer>
-        <ul>
-          <li><a href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
-          <li><a href="#">info@devstudio.com</a></li>
-          <li><a href="#">+38&nbsp;096&nbsp;111&nbsp;11&nbsp;11</a></li>
-        </ul>
-      </footer>
-    </section>
+    <footer class="block-footer">
+      <a class="logotype-footer" href="#"><span class="accent-fotter">Web</span>Studio</a>
+      <ul>
+        <li><a class="adress" href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
+        <li><a class="contacts" href="#">info@devstudio.com</a></li>
+        <li><a class="contacts" href="#">+38&nbsp;096&nbsp;111&nbsp;11&nbsp;11</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
