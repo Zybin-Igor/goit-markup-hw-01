@@ -7,18 +7,22 @@
 селектор наследия
 селектор ребенка
 */
-*{
+/* *{
     margin: 0;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
 /*-----Header шапка сайту---*/
-.logo{
+/*.logo{
     font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 /* identical to box height */
-letter-spacing: 0.03em;
+/*letter-spacing: 0.03em;
 color: #000000;
 }
 .accent{
@@ -29,7 +33,7 @@ font-size: 26px;
 line-height: 31px;
 /* identical to box height */
 
-letter-spacing: 0.03em;
+/*letter-spacing: 0.03em;
 
 color: #2196F3;
 }
@@ -46,8 +50,16 @@ ul{
     left: 0px;
     top: 80px;
 }
-.studio-app {
-    color:#2196F3;
+.studio-app:hover {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+/*letter-spacing: 0.02em;
+/* NAVY BLUE */
+/*color: #2E2F42;
 }
 .reklama{
     font-family: 'Roboto';
@@ -56,7 +68,7 @@ font-weight: 900;
 font-size: 44px;
 line-height: 60px;
 /* or 136% */
-text-align: center;
+/*text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
@@ -79,17 +91,14 @@ font-size: 16px;
 line-height: 30px;
 /* identical to box height, or 188% */
 
-display: flex;
+/*display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 
 color: #FFFFFF;
 }
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif; 
-}
+
 .block-footer{
     position: absolute;
 width: 1600px;
@@ -107,7 +116,7 @@ font-size: 26px;
 line-height: 31px;
 /* identical to box height */
 
-letter-spacing: 0.03em;
+/*letter-spacing: 0.03em;
 
 color: #FFFFFF;
 
@@ -120,7 +129,7 @@ font-size: 26px;
 line-height: 31px;
 /* identical to box height */
 
-letter-spacing: 0.03em;
+/*letter-spacing: 0.03em;
 
 color: #2196F3;
 
@@ -131,7 +140,7 @@ font-size: 14px;
 line-height: 24px;
 /* or 171% */
     
-letter-spacing: 0.03em;
+/*letter-spacing: 0.03em;
     
 color: #FFFFFF;
 }
@@ -141,7 +150,7 @@ font-size: 14px;
 line-height: 24px;
 /* or 171% */
 
-letter-spacing: 0.03em;
+/*letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
 }
